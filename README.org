@@ -1,4 +1,0 @@
-* Basic Emacs Config
-
-** TODO Update Readme
-** TODO add license
