@@ -1,3 +1,4 @@
-* Basic Emacs Config
+* Basic Emacs Config [0%]
 ** TODO Update Readme 
-** TODO Add license
+** TODO Add license.
+** TODO Add Links
