@@ -126,6 +126,8 @@
 (edwina-setup-dwm-keys)
 (edwina-mode 1)
 
+(load-file "~/.config/emacs30/type-speed.el")
+
 (use-package minions
   :ensure t
   :config (minions-mode 1))
