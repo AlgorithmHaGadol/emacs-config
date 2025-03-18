@@ -11,6 +11,10 @@
         (remove-hook 'post-command-hook 'typing-speed-post-command-hook)
         (cancel-timer typing-speed-update-timer))))
 
+(define-globalized-minor-mode global-typing-speed-mode
+  typing-speed-mode typing-speed-mode
+  :group 'typing-speed)
+
 (defun typing-speed-mode-line ()
   (unless (assoc 'typing-speed-mode mode-line-misc-info)
     (push '(typing-speed-mode (" " typing-speed-mode-text))

@@ -127,6 +127,7 @@
 (edwina-mode 1)
 
 (load-file "~/.config/emacs30/type-speed.el")
+(global-typing-speed-mode t)
 
 (use-package minions
   :ensure t
